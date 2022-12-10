@@ -8,3 +8,5 @@ Make sure to separate every element in names by a "\n"
 Launch the file random_teams.py file
 
 Results will be displayed in result.txt file
+
+#result.txt
