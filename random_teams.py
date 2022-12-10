@@ -7,7 +7,6 @@ chosen_file = "namess.txt"
 with open("result.txt", "w") as f:
   f.write("")
 
-
 with open(chosen_file, "r") as f:
   lines = f.readlines()
   names = [name.strip() for name in lines]
@@ -28,5 +27,7 @@ with open("result.txt", "a") as f:
     f.write("\n")
     teams.append(temp_team)
 
-with open("result.txt") as f:
-  print(f.read())
+with open("result.txt", "r") as f:
+  file = f.read()
+
+print(file)
