@@ -27,6 +27,17 @@ with open("result.txt", "a") as f:
     f.write("\n")
     teams.append(temp_team)
 
+  teamleaders = []
+  for x in teams:
+    teamleaders.append(random.choice(x))
+
+  f.write("TEAMLEADERS:")
+  f.write("\n")
+  for x in teamleaders:
+    f.write(x)
+    f.write("\n")
+
+
 with open("result.txt", "r") as f:
   file = f.read()
 
